@@ -2,7 +2,8 @@ body {
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
-    font-family: "PT Sans Narrow", "Arial", sans-serif;
+    font-family: "PT Sans Narrow"; 
+	font-weight: bold;
 	text-transform: uppercase;
 	min-width: 960px;
 	background: #000000 url(../img/bg-main.jpg) no-repeat center top;
@@ -10,14 +11,14 @@ body {
 }
 h1{
     font-size: 30px;
-    line-height: auto;
+    line-height: 42px;
     color: #000000;
     font-weight: bold;
     font-family: "PT Sans Narrow Bold";
 }
 h2{
 	font-size: 24px;
-    line-height: auto;
+    line-height: 30px;
     color: #000000;
     font-weight: bold;
     font-family: "PT Sans Narrow Bold"; 
@@ -302,7 +303,7 @@ h2{
   display: inline-block;
   width: 7px;
   height: 7px;
-  margin-top: 8px;
+  margin-top: 5px;
   margin-left: 13px;
   padding: 0;
   content: "";
@@ -572,6 +573,7 @@ h2{
   vertical-align: middle;
   background: #000;
 }
+
  /**/
 .main-footer {
   padding-top: 48px;
